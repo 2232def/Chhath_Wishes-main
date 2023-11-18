@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chhath Puja Wishes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width:722px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="owner">
+        <h1>Tech Army</h1>
+    </div>
+    <div class="options">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Photos.html">PHOTOS AND VIDEO</a></li>
+            <li><a href="History.html">HISTORY</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    </header>
+
+
+   
+    <div class="container" id="blur">
+         <img src="Chhath_background.png" alt="" >
+         <button type="submit" class="btn" onclick="toggle()">TAP</button>
+    </div>
+    <div class="popup" id="popup">  
+        <audio autoplay="" src="Chhat-Puja-Geet(PaglaSongs).mp3"></audio>        
+        <h2>HAPPY CHHATH PUJA</h2>
+        <P class="pra">May this auspicious occasion bring you closer to nature and fill your life with blessings, happiness, and prosperity.</P>
+        <button type="submit" class="btn" onclick="toggle()">Thanks</button>
+    </div>
+
+
+
+
+<script>
+function toggle(){
+    let popup = document.getElementById("popup");
+    popup.classList.toggle("active");
+    let blur = document.getElementById('blur');
+    blur.classList.toggle('active')
+}
+</script>
+
+</body>
+</html>

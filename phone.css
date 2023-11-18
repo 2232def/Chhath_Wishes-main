@@ -1,0 +1,35 @@
+.owner h1{
+    color: brown;
+    font-size: 18px;
+    margin-top: 34px;
+}
+
+.options ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 9px;
+}
+.options ul {
+    float: right;
+    margin-top: -16px;
+    font-size: 9px;
+    padding: 0px;
+}
+
+.btn{
+    font-size: 10px;
+}
+
+.popup{
+    border-radius: 49px;
+    height: 435px;
+    width: 20rem;
+}
+
+.popup .btn{
+    width: 81px;
+    margin-top: 184px;
+    margin-left: -34px;
+    font-size: 12px;
+    padding: 7px 11px;
+}
